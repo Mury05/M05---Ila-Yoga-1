@@ -1,0 +1,138 @@
+@font-face {
+    font-family: Playfair Display;
+    src: url("./assets/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: Kaushan Script;
+    src: url("./assets/fonts/Kaushan_Script/KaushanScript-Regular.ttf");
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+header{
+    background: url(./assets/img/fond.jpg) no-repeat;
+    height: 750px;
+    background-position: center;
+    background-size: cover;
+    font-size: 1.5em;
+    font-family: Kaushan Script;
+}
+header p{
+    background: url(./assets/img/fond.jpg);
+    text-align: center;
+    color: white;
+    padding-block: 10px;
+}
+main{
+    font-family: Playfair Display;
+    line-height: 30px;
+}
+.title{
+    color: rgb(250 251 250);
+    font-size: 2em;
+    position: absolute;
+    left: 36%;
+    top: 30%;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 0;
+}
+li{
+    text-decoration: none;
+    width: 13%;
+}
+li div{
+    text-align: center;
+}
+li svg{
+    width: 22%;
+    margin-left: 100px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.first{
+    margin-inline: 40px;
+}
+h2{
+    text-align: center;
+    margin-block: 45px;
+}
+.yoga1 {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+.second{
+    clear: both;
+    margin-inline: 40px;
+
+}
+hr{
+    clear: both;
+    color: rgb(219, 151, 219);
+    width: 1700px;
+}
+.line{
+    clear: both;
+    border-top: 1px solid rgb(219, 151, 219); 
+    width: 75%;
+}
+.yoga2 {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+section{
+    clear: both;
+    display: flex;
+    justify-content: center;
+    /* background: url(./assets/img/background_section.jpg) no-repeat; */
+    background-size: cover;
+    background: linear-gradient(180deg,rgb(203, 194, 224),rgb(141 111 209));
+    color: white;
+}
+section>article{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: 50px;
+}
+.home{
+    width: 130px;
+    margin: auto;
+}
+article>h3{
+    margin-top: 50px;
+    text-align: center;
+}
+section p{
+    padding: 20px;
+    text-align: center;
+}
+iframe{
+    width: 100%;
+    height: 400px;
+}
+footer{
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: rgb(141 111 209);
+    color: white;
+
+}
+footer p{
+    margin: 0;
+    margin-bottom: 4px;
+}
